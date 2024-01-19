@@ -1,5 +1,5 @@
-# Grafana Alfred Workflow
+# Alfred Workflow Template
 
-## Requirements
-
-- Deno
+```shell
+$ cookiecutter gh:uphy/alfred-workflow-template
+```

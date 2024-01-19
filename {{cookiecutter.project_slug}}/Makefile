@@ -1,4 +1,4 @@
-WORKFLOW_FILE = grafana.alfredworkflow
+WORKFLOW_FILE = {{ cookiecutter.workflow_slug }}.alfredworkflow
 
 build:
 	zip -r $(WORKFLOW_FILE) * -x Makefile -x .gitignore -x .git -x .github -x .editorconfig -x README.md

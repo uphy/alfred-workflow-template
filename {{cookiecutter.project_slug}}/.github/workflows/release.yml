@@ -23,9 +23,9 @@ jobs:
       - name: Create Release
         uses: softprops/action-gh-release@v1
         with:
-          tag_name: ${{ github.ref }}
-          name: ${{ env.RELEASE_VERSION }}
+          tag_name: {{ "${{ github.ref }}" }}
+          name: {{ "${{ env.RELEASE_VERSION }}" }}
           draft: false
           prerelease: false
           files: |
-            ${{ env.WORKFLOW_NAME }}.alfredworkflow
+            {{ cookiecutter.workflow_slug }}.alfredworkflow

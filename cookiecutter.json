@@ -1,0 +1,5 @@
+{
+  "workflow": "Foo",
+  "workflow_slug": "{{ cookiecutter.workflow.lower().replace(' ', '-') }}",
+  "project_slug": "alfred-workflow-{{ cookiecutter.workflow_slug }}"
+}
