@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>com.github.uphy.{{ cookiecutter.workflow_slug }}</string>
+	<string>com.github.uphy.alfred.{{ cookiecutter.workflow_slug }}</string>
 	<key>connections</key>
 	<dict/>
 	<key>createdby</key>
